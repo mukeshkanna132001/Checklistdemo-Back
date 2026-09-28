@@ -5,8 +5,10 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ChecklistApi.Controllers;
 
-[ApiController]
+[ApiController] 
 [Route("api/[controller]")]
+
+
 public class ChecklistController : ControllerBase
 {
     private readonly AppDbContext _db;
